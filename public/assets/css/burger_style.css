@@ -1,0 +1,61 @@
+body{
+    background-color: peachpuff;
+}
+
+.burgerimg {
+    text-align: center;
+}
+
+.row {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.devour-burger {
+    float: right;
+}
+
+
+.uneaten {
+    padding: 5px;
+    margin: 5px;
+    background: burlywood;
+  }
+
+.eaten {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+h2{
+    text-align: center;
+}
+
+  .create-form {
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: peachpuff;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin: 5px;
+  }
+  
